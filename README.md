@@ -1,6 +1,29 @@
-# Welcome to your Lovable project
+# Welcome to Study Time Tracker
 
 ## Project info
+
+**Take control of your learning schedule and achieve your educational goals!**
+
+LearnTime Manager is a simple yet powerful application designed to help you manage and monitor your learning time across various educational platforms. Whether you're dedicated to mastering a new language on Duolingo, diving into coding courses, or tackling academic subjects, this app empowers you to set daily learning goals and stay on track.
+
+**Key Features:**
+
+* **Goal Setting:** Easily define your daily learning time targets for specific applications. Want to spend one hour on Duolingo every day? No problem!
+* **Time Tracking:** The app intelligently monitors your usage of designated learning applications in the background.
+* **Real-time Monitoring:** Get a clear overview of your progress throughout the day. See how much time you've dedicated to each learning app.
+* **Smart Notifications:** Receive timely notifications when you reach your daily learning goal, encouraging consistency and celebrating your achievements.
+* **Multi-App Support:** Track learning time across multiple applications simultaneously. Customize which apps you want to monitor.
+* **Simple and Intuitive Interface:** A clean and user-friendly design makes it easy to set up and manage your learning goals.
+
+**Why use Study Time Tracker?**
+
+* **Boost Consistency:** Stay committed to your learning routine by setting clear time-based goals.
+* **Enhance Time Management:** Understand how you're spending your learning time and optimize your schedule.
+* **Increase Motivation:** Achieve a sense of accomplishment as you reach your daily targets and maintain your learning momentum.
+* **Track Progress:** Easily monitor your dedication and see your efforts translate into consistent learning habits.
+
+**Getting Started:**
+
 
 **URL**: https://lovable.dev/projects/2d104db5-232a-4570-83b5-521aaed99836
 
