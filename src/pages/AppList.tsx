@@ -1,8 +1,8 @@
-
 import React, { useState } from "react";
 import GoalSetter from "../components/GoalSetter";
 import AppProgressCard from "../components/AppProgressCard";
 import { Button } from "@/components/ui/button";
+import { requestNotificationPermission, sendLocalNotification } from "../utils/notifications";
 
 type TrackedApp = {
   id: string;
@@ -62,6 +62,11 @@ const AppList = () => {
     );
   };
 
+  const handleTestNotification = async () => {
+    await requestNotificationPermission();
+    await sendLocalNotification("Goal reached!", "You have reached your daily learning goal 🎉");
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 to-green-50 px-4 py-6 flex flex-col items-center">
       <h1 className="text-2xl font-bold mb-4">Your Tracked Learning Apps</h1>
@@ -76,6 +81,9 @@ const AppList = () => {
       </div>
       <Button className="mt-8 w-full max-w-xs" onClick={() => setShowAdd(true)}>
         + Add another app
+      </Button>
+      <Button className="mt-3 w-full max-w-xs" variant="secondary" onClick={handleTestNotification}>
+        تست نوتیفیکیشن
       </Button>
       {showAdd && (
         <div className="fixed inset-0 bg-black/30 flex items-center justify-center z-10">
